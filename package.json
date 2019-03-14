@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nikhil-shrestha/aws-lambda-serverless/issues"
   },
-  "homepage": "https://github.com/nikhil-shrestha/aws-lambda-serverless#readme"
+  "homepage": "https://github.com/nikhil-shrestha/aws-lambda-serverless#readme",
+  "dependencies": {
+    "serverless-appsync-plugin": "^1.1.0",
+    "serverless-pseudo-parameters": "^2.4.0"
+  }
 }
