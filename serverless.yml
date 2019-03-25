@@ -1,4 +1,4 @@
-service: skill-transfers # NOTE: update this with your service name
+service: sls-test-graphql # NOTE: update this with your service name
 
 plugins:
   - serverless-appsync-plugin
@@ -8,7 +8,7 @@ provider:
   name: aws
   runtime: nodejs8.10
   stage: dev
-  region: eu-west-1
+  region: eu-west-2
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
